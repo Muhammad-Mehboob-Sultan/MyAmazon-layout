@@ -1,0 +1,142 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.bg-nav {
+  background: #3a4468;
+  color: white;
+}
+#navbar .navbar-nav {
+  color: white;
+}
+a.nav-link.active{
+  color: red !important;
+}
+
+.banner {
+  background-image: url("images/banner3.jpg");
+  background-repeat: no-repeat;
+  height: 220px;
+  background-position: -5px -400px;
+}
+.banner h1 {
+  text-align: center;
+  padding: 85px;
+  font-weight: bold;
+}
+#navbar .navbar-nav .nav-item .nav-link {
+  color: white;
+  text-align: center;
+  margin-inline: 20px;
+  padding: 15px 0;
+}
+#navbar .navbar-nav .nav-item .nav-link:hover{
+  color: red;
+
+}
+.input-group {
+  padding-top: 15px;
+}
+/* carauel css */
+.client-section-header {
+  padding-top: 50px;
+
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.client-img {
+  width: 200px;
+  height: 250px;
+}
+.input-group {
+  padding-top: 15px;
+}
+
+.Products-heading {
+  padding: 50px;
+  display: flex;
+  flex-direction: start;
+  font-size: 30px;
+  color: rgb(95, 89, 89);
+}
+/* .Products-heading ::after{
+
+} */
+.carousel-item h1 {
+  display: block;
+  color: #3a4468;
+  padding: 30px;
+  /* font-family: poppins; */
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.carousel-item p {
+  color: rgb(124, 118, 118);
+  margin-bottom: 50px;
+}
+
+.client .container .carousel-item .detail-box {
+  padding-top: 20px;
+  box-shadow: 0px 0px 16px 0px rgb(252, 229, 229);
+}
+.main-contents .Products-heading {
+  text-align: center;
+}
+/* footer css */
+.footer {
+  padding: 30px;
+  background-color: #3a4468;
+  color: white;
+}
+.footer-menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+.footer-menu ul {
+  list-style: none;
+}
+#social-icons ul li a {
+  text-decoration: none;
+  color: white;
+}
+#social-icons li {
+  list-style: none;
+}
+
+#social-icons li {
+  display: inline-block;
+}
+#social-icons li i {
+  color: white;
+  padding: 5px;
+  font-size: 29px;
+  text-align: center;
+}
+
+.footer .container p i.fa-solid {
+  margin: 10px;
+}
+.footer .container p i.fa-regular {
+  margin: 10px;
+}
+.btn-primary {
+  
+  background-color: red;
+  border: 1px solid red !important;
+ 
+}
+.btn-primary:hover
+{
+  border-color: red;
+  color: red;
+  background-color: white;
+}
+.footer-buttom p a {
+  text-decoration: none;
+  color: white;
+}
+.footer-buttom p {
+  text-align: center;
+}

@@ -1,0 +1,100 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.input-group {
+  padding-top: 15px;
+}
+.bg-nav {
+  background: #3a4468;
+  color: white;
+}
+#navbar .navbar-nav {
+  color: white;
+}
+a.nav-link.active{
+  color: red !important;
+}
+
+.banner {
+  background-image: url("images/banner3.jpg");
+  background-repeat: no-repeat;
+  height: 220px;
+  background-position: -5px -400px;
+}
+.banner h1 {
+  text-align: center;
+  padding: 85px;
+  font-weight: bold;
+}
+#navbar .navbar-nav .nav-item .nav-link {
+  color: white;
+  text-align: center;
+  margin-inline: 20px;
+  padding: 15px 0;
+}
+#navbar .navbar-nav .nav-item .nav-link:hover{
+  color: red;
+
+}
+
+.sub-main-contents {
+  background-color: #3a4468;
+}
+.sub-main-contents .content-area{
+  color: white;
+  padding-top: 200px;
+}
+.sub-main-contents .content-area h2{
+  font-weight: bold;
+  position: relative;
+}
+.sub-main-contents .content-area p{
+  padding: 10px
+}
+.footer {
+  padding: 30px;
+  background-color: #2a3661;
+  color: white;
+}
+.footer-menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+.footer-menu ul {
+  list-style: none;
+}
+#social-icons ul li a {
+  text-decoration: none;
+  color: white;
+}
+#social-icons li {
+  list-style: none;
+}
+
+#social-icons li {
+  display: inline-block;
+}
+#social-icons li i {
+  color: white;
+  padding: 5px;
+  font-size: 29px;
+  text-align: center;
+}
+
+.footer .container p i.fa-solid {
+  margin: 10px;
+}
+.footer .container p i.fa-regular {
+  margin: 10px;
+}
+.btn-primary {
+  background-color: red;
+  border-color: 0px solid blue;
+}
+.footer-buttom p a {
+  text-decoration: none;
+  color: white;
+}
+.footer-buttom p {
+  text-align: center;
+}

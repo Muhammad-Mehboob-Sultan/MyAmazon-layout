@@ -1,0 +1,146 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.bg-nav {
+  background: #3a4468;
+  color: white;
+}
+#navbar .navbar-nav {
+  color: white;
+}
+a.nav-link.active{
+  color: red !important;
+}
+
+.banner {
+  background-image: url("images/banner3.jpg");
+  background-repeat: no-repeat;
+  height: 220px;
+  background-position: -5px -400px;
+}
+.banner h1 {
+  text-align: center;
+  padding: 85px;
+  font-weight: bold;
+}
+#navbar .navbar-nav .nav-item .nav-link {
+  color: white;
+  text-align: center;
+  margin-inline: 20px;
+  padding: 15px 0;
+}
+#navbar .navbar-nav .nav-item .nav-link:hover{
+  color: red;
+
+}
+.input-group {
+  padding-top: 15px;
+}
+.services .icons i {
+  font-size: 50px;
+}
+.services:hover .icons i {
+  color: yellow;
+  
+}
+.services .headings {
+  text-align: center;
+  font-weight: 50px;
+  font-size: 20px;
+}
+.services {
+  border: 1px solid grey;
+}
+.services .icons {
+  display: block;
+  text-align: center;
+  padding: 30px;
+}
+.services .text {
+  text-align: center;
+}
+.main-contents .Products-heading {
+  text-align: center;
+}
+.sub-main-contents {
+  background-color: #3a4468;
+}
+.sub-main-contents .content-area{
+  color: white;
+  padding-top: 200px;
+}
+.sub-main-contents .content-area h2{
+  font-weight: bold;
+  position: relative;
+}
+.sub-main-contents .content-area p{
+  padding: 10px
+}
+
+.container .Products-heading {
+  text-align: center;
+}
+.footer {
+  padding: 30px;
+  background-color: #3a4468;
+  color: white;
+}
+.footer-menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+.footer-menu ul {
+  list-style: none;
+}
+#social-icons ul li a {
+  text-decoration: none;
+  color: white;
+}
+#social-icons li {
+  list-style: none;
+}
+
+#social-icons li {
+  display: inline-block;
+}
+#social-icons li i {
+  color: white;
+  padding: 5px;
+  font-size: 29px;
+  text-align: center;
+}
+.service-providing{
+  padding-top: 40px;
+}
+
+.footer .container p i.fa-solid {
+  margin: 10px;
+}
+.footer .container p i.fa-regular {
+  margin: 10px;
+}
+.btn-primary {
+  
+  background-color: red;
+  border: 1px solid red !important;
+ 
+}
+.btn-primary:hover
+{
+  border-color: red;
+  color: red;
+  background-color: white;
+}
+.footer-buttom p a {
+  text-decoration: none;
+  color: white;
+}
+.footer-buttom p {
+  text-align: center;
+}
+.Products-heading{
+  padding: 70px 0px 40px 0px;
+}
+.content{
+  padding-bottom: 40px;
+}
